@@ -19,6 +19,6 @@ def compositeTrapezoidal(a, b, n):
 
 a = 1
 b = 7
-n = 6
+n = 329
 
 print(round(compositeTrapezoidal(a, b, n), 4))
