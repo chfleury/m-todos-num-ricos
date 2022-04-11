@@ -2,8 +2,8 @@ import math
 
 def f(x):
   return (x**2) * (math.e**(-x))  # x^2e^-x dx
-  
-def trapezio(a, b):
+
+def trapezoidal(a, b):
   x0 = a
   x1 = b
   h = b - a
@@ -14,4 +14,4 @@ def trapezio(a, b):
 a = 0
 b = 1
 
-print(round(trapezio(a, b), 4))
+print(round(trapezoidal(a, b), 4))
