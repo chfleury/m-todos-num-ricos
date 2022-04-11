@@ -13,7 +13,6 @@ def compositeTrapezoidal(a, b, n):
   for i in range(1, int((b-a)/h)):
     xi.append(a + (i*h))
 
-  # (f(x0) + f(x1)) * (h/2)
   return (f(x0) + 2*sum([f(i) for i in xi]) + f(xn)) * (h/2)
 
 a = 1
